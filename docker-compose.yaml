@@ -2,10 +2,5 @@ version: '2.1'
 
 services:
   rtl_433:
-    image: rtl_433_aw:latest
-    container_name: rtl_433
-    restart: always
-    privileged: true
-    command: "-F mqtt://mqtt:1883 -f 434.0M -f 868.5M -H 90 -M level"
-    volumes:
-      - ./analysis:/root/analysis
+    image: ubuntu:oracular-20240918
+    command: "echo some text"#-Y classic" # -s 1000k"
