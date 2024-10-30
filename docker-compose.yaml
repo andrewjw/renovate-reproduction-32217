@@ -6,6 +6,6 @@ services:
     container_name: rtl_433
     restart: always
     privileged: true
-    command: "-F mqtt://mqtt:1883 -f 434.0M -f 868.5M -H 90 -M level"#-Y classic" # -s 1000k"
+    command: "-F mqtt://mqtt:1883 -f 434.0M -f 868.5M -H 90 -M level"
     volumes:
       - ./analysis:/root/analysis
