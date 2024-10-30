@@ -3,4 +3,4 @@ version: '2.1'
 services:
   rtl_433:
     image: ubuntu:oracular-20240918
-    command: "echo some text"#more text with a quote in the comment"
+    command: "echo some text" # more text with a quote in the comment"
