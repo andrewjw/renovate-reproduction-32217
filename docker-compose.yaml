@@ -2,7 +2,6 @@ version: '2.1'
 
 services:
   rtl_433:
-#    image: "hertzg/rtl_433:23.11"
     image: rtl_433_aw:latest
     container_name: rtl_433
     restart: always
