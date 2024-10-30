@@ -4,4 +4,4 @@ services:
   rtl_433:
     image: ubuntu:oracular-20240918
     # inserting a space before the hash on the next line makes Renovate work.
-    command: "echo some text"# more text with a quote in the comment
+    command: "echo some text"# more text with a quote in the comment"
